@@ -1,0 +1,41 @@
+
+
+body {
+    background-image: url(./images/double-bubble-dark/double-bubble-dark.png);
+    color: #fff;
+}
+
+.everything-but-footer {
+    min-height: calc(100vh - 60px);
+}
+
+h1 {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 40px;
+    background-color: rgb(59, 59, 59);
+    border: #fff solid 1px;
+}
+
+#button-row {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.btn {
+    border: rgb(255, 199, 79) solid 1px;
+}
+
+.footer {
+    box-sizing: content-box;
+    padding-top: 10px;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+}
+
+.footer p {
+    border-radius: 15px;
+    border: solid #fff 1px;
+    margin-top: 10px;
+}

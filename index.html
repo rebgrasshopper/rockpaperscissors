@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+
+<head>
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Rock, Paper, Scissors</title>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+<link href='./assets/style.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class='text-center'>
+    <div class="container everything-but-footer">
+        <div class="row">
+            <div class="col-12">
+                <h1 class='mx-auto'>Let's Play Rock, Paper, Scissors!</h1>
+            </div><!--/col-->
+        </div><!--/row-->
+        <div class="row" id='button-row'>
+            <div class="col-5">&nbsp;</div>
+            <div class="col-2">
+                <button class='btn btn-warning' id='play' onclick="letsPlay()" >Play!</button>
+            </div>
+            <div class="col-5">&nbsp;</div>
+        </div><!--/row-->
+    </div><!---/container-->
+    <footer class='footer'>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div><p id="wins">Wins: 0</p></div>
+                </div>
+                <div class="col-4">
+                    <p id="ties">Ties: 0</p>
+                </div>
+                <div class="col-4">
+                    <p id="losses">Losses: 0</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src='./assets/main.js'></script>    
+</body>
+
+</html>
